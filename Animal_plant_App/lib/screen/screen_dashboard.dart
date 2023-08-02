@@ -157,43 +157,7 @@ class ScreenDashboard extends StatelessWidget {
                             ),
 
                             // ignore: sized_box_for_whitespace
-                            Container(
-                              // first card
-                              margin:const  EdgeInsets.only(left: 10),
-                              width: MediaQuery.of(context).size.width * 0.5,
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Expanded(
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(12),
-                                      child: Image.asset(
-                                        "assets/hai1.jpg",
-                                        fit: BoxFit.cover,
-                                        width: MediaQuery.of(context).size.width*0.5,
-                                      ),
-                                    ),
-                                  ),
-                                  const Padding(
-                                    padding: EdgeInsets.symmetric(vertical: 6),
-                                    child: Text(
-                                      Strings.lifeWithATiger,
-                                      style: TextStyles.titleTextStyle,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(vertical: 6),
-                                    child: Text(
-                                      Strings.lorenIpsum,
-                                      maxLines: 3,
-                                      overflow: TextOverflow.ellipsis,
-                                      style: TextStyles.body3TextStyle,
-                                    ),
 
-                                  )
-                                ],
-                              ),
-                            ),
                           ],
                         ),
                       )

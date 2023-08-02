@@ -7,8 +7,6 @@ final List<String> _playlist = [
   '!R',
   'Hindi Lofi',
   'Temp',
-  'Hai',
-  'Giua ky'
 ];
 
 class HomeScreen extends StatefulWidget {
